@@ -1,0 +1,20 @@
+1   [".oh-my-zsh"]
+  1   type = "git-repo"
+  2   url = "https://github.com/ohmyzsh/ohmyzsh.git"
+  3   refreshPeriod = "168h"
+  4
+  5 [".oh-my-zsh-custom/plugins/zsh-syntax-highlighting"]
+  6   type = "git-repo"
+  7   url = "https://github.com/zsh-users/zsh-syntax-highlighting.git"
+  8   refreshPeriod = "168h"
+  9
+ 10 [".oh-my-zsh-custom/plugins/zsh-autosuggestions"]
+ 11   type = "git-repo"
+ 12   url = "https://github.com/zsh-users/zsh-autosuggestions.git"
+ 13   refreshPeriod = "168h"
+ 14
+ 15 [".fzf"]
+ 16   type = "git-repo"
+ 17   url = "https://github.com/junegunn/fzf.git"
+ 18   refreshPeriod = "168h"
+

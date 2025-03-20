@@ -1,0 +1,8 @@
+[user]
+{{ if eq .chezmoi.hostname "clt1-rh" }}
+	email = {{ .email }}
+	name = {{ .name }}
+{{ else }}
+        email = someone@clt2025.org
+        name = Chemnitzer Linuxtage
+{{ end }}
